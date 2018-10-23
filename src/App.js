@@ -1,28 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
+import Spinner from './components/common/Spinner.jsx';
+import SideBox from './components/common/SideBox.jsx';
+import Main from './components/layouts/Main.jsx';
+import BackToTop from './components/common/buttons/BackToTop.jsx';
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Fragment>
+        <Spinner />
+        <SideBox />
+        <div className="site">
+          <Main />
+        </div>
+        <BackToTop />
+      </React.Fragment>
     );
   }
 }
-
-export default App;
