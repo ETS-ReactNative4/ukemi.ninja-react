@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Introduction extends Component {
   render() {
     return (
-      <div className="section pt-10 pb-10">
+      <div className="section pt-10">
         <div className="container">
           <div className="row justify-content-center text-center mb-60">
             <div className="col-lg-12">

@@ -9,7 +9,7 @@ const options = {
   dots: false,
   loop: true,
   responsive: {
-    0: { items: 1, center: true },
+    0: { items: 2 },
     479: { items: 2 },
     768: { items: 3, center: true },
     979: { items: 4 },
@@ -20,7 +20,7 @@ const options = {
 export default class Partners extends Component {
   render() {
     return (
-      <div className="section pt-4 pb-4">
+      <div className="section">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

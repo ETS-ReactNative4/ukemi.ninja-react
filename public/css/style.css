@@ -705,7 +705,7 @@ hr.dotted {
 }
 .heli-typed-words #typed,
 .heli-typed-words .typed-cursor {
-  color: #3aacc7;
+  color: #000;
 }
 .heli-typed-words .dh-typed-text-wrap {
   display: inline-block;
