@@ -3253,6 +3253,7 @@ table th {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 30px;
+  text-decoration: underline;
 }
 .service-carousel .owl-nav {
   position: absolute;
