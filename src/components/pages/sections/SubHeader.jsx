@@ -25,14 +25,16 @@ export default class SubHeader extends Component {
           <div className="row">
             <div className="col-sm-12">
               <div className="text-center">
-                <h2 className="section-title dark pt-3 mb-2">
-                  We are <b>Ukemi</b>
+                <h2 className="section-title dark pt-3 mb-2 title-line">
+                  <span>
+                    We are <b>UKEMI</b>
+                  </span>
                 </h2>
                 <div className="heli-typed-words mt-4">
                   A creative studio focused on movement <Typed {...options} />
                   <div className="dh-typed-text-wrap" />
                   <p>
-                    We work towards promoting urban enviroments as places for
+                    We work towards reclaiming urban enviroments as places for
                     creativity and play.
                   </p>
                 </div>

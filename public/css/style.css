@@ -1706,6 +1706,27 @@ table th {
   font-size: 32px;
   color: #111;
 }
+.title-line span {
+  display: inline-block;
+  position: relative;
+}
+.title-line span:before,
+.title-line span:after {
+  content: '';
+  position: absolute;
+  height: 0px;
+  border-bottom: 2px solid #eee;
+  top: 50%;
+  width: 109px;
+}
+.title-line span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.title-line span:after {
+  left: 100%;
+  margin-left: 15px;
+}
 .section-title b {
   font-weight: 900;
 }
@@ -3233,14 +3254,14 @@ table th {
   font-weight: 800;
   margin-bottom: 30px;
 }
-.service-carousel .owl-controls {
+.service-carousel .owl-nav {
   position: absolute;
   bottom: 0;
   right: 0;
   height: 80px;
 }
-.service-carousel .owl-controls .owl-buttons .owl-next,
-.service-carousel .owl-controls .owl-buttons .owl-prev {
+.service-carousel .owl-nav .owl-next,
+.service-carousel .owl-nav .owl-prev {
   width: 80px;
   height: 80px;
   display: inline-block;
@@ -3254,8 +3275,8 @@ table th {
   opacity: 0.8;
   margin: 0;
 }
-.service-carousel .owl-controls .owl-next i,
-.service-carousel .owl-controls .owl-prev i {
+.service-carousel .owl-nav .owl-next i,
+.service-carousel .owl-nav .owl-prev i {
   font-size: 20px;
   line-height: 80px;
   color: #fff;
