@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-
 export default class Subscribe extends Component {
   render() {
     return (
-      <div className="section bg-gray pt-8 pb-8">
+      <div className="section pt-8 pb-8">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-lg-4 col-md-4">
@@ -20,7 +19,11 @@ export default class Subscribe extends Component {
                   placeholder="Your email address"
                   className="text-center-xs mb-1"
                 />
-                <input type="submit" value="subscribe" />
+                <a
+                  href="#"
+                  className="btn btn-rounded btn-bg-dark btn-large mb-2">
+                  <span>Subscribe </span>
+                </a>
               </form>
             </div>
           </div>

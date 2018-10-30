@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink as Link } from 'react-router-dom';
 
 export default class Navbar extends Component {
   render() {
@@ -12,49 +13,49 @@ export default class Navbar extends Component {
                   <div className="primary-menu">
                     <ul className="main-menu text-center">
                       <li>
-                        <a href="./">Home</a>
+                        <Link to="./">Home</Link>
                       </li>
                       <li>
-                        <a href="#">About Us</a>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="#">Projects</a>
+                        <Link to="#">Projects</Link>
                         <ul className="sub-menu text-left">
                           <li>
-                            <a href="cards.html">Card Game</a>
+                            <Link to="/cards">Card Game</Link>
                           </li>
                           <li>
-                            <a href="parks.html">Parks</a>
+                            <Link to="/parks">Parks</Link>
                           </li>
                           <li>
-                            <a href="events.html">Events</a>
+                            <Link to="/events">Events</Link>
                           </li>
                           <li>
-                            <a href="#">Books</a>
+                            <Link to="/books">Books</Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link to="#">
                               Other <i className="fa fa-chevron-right" />
-                            </a>
+                            </Link>
                             <ul className="sub-menu">
                               <li>
-                                <a href="#">Design</a>
+                                <Link to="/design">Design</Link>
                               </li>
                               <li>
-                                <a href="#">Performance</a>
+                                <Link to="/performance">Performance</Link>
                               </li>
                             </ul>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="#">Store</a>
+                        <Link to="/store">Store</Link>
                       </li>
                       <li>
-                        <a href="#">Contact us</a>
+                        <Link to="/contact">Contact us</Link>
                       </li>
                     </ul>
                   </div>

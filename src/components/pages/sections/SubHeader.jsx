@@ -33,7 +33,7 @@ export default class SubHeader extends Component {
                 <div className="heli-typed-words mt-4">
                   A creative studio focused on movement <Typed {...options} />
                   <div className="dh-typed-text-wrap" />
-                  <p>
+                  <p className="pt-2">
                     We work towards reclaiming urban enviroments as places for
                     creativity and play.
                   </p>
