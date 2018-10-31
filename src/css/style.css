@@ -609,10 +609,7 @@ hr.dotted {
   -o-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
 }
-.form-control,
-.form-control:focus {
-  background-color: transparent;
-}
+
 .form-submit,
 .tagcloud a {
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -711,19 +708,6 @@ hr.dotted {
   display: inline-block;
   padding: 5px 10px;
 }
-.form-control {
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  color: #222;
-  border-radius: 0;
-  font-size: 16px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 34px;
-}
-textarea.form-control {
-  height: auto;
-}
 .black .form-control {
   border-color: #444;
   color: #fff;
@@ -751,11 +735,6 @@ textarea.form-control {
 .black .form-submit:hover {
   background-color: #fff;
   color: #222;
-}
-.social-icons > a {
-  margin-right: 10px;
-  font-size: 18px;
-  display: inline-block;
 }
 .barber-shop-info {
   padding: 15% 18%;
@@ -960,23 +939,6 @@ textarea.form-control {
   letter-spacing: normal;
   padding-top: 5px;
 }
-.bread_crumb,
-.bread_crumb a {
-  color: #a6a6ac;
-}
-.breadcrumb {
-  padding: 0;
-  background: 0 0;
-  margin-bottom: 3px;
-}
-.bread_crumb {
-  position: relative;
-  display: inline-block;
-  padding: 0;
-  margin-bottom: 0;
-  margin-left: 3px;
-  text-transform: none;
-}
 .comment-content h3,
 .comment-reply-link,
 .comment-reply-title,
@@ -985,18 +947,6 @@ textarea.form-control {
 .table thead,
 table thead {
   text-transform: uppercase;
-}
-.bread_crumb li {
-  display: inline-block;
-  margin-right: 6px;
-}
-.bread_crumb li a:after {
-  margin-left: 10px;
-  content: '/';
-}
-.bread_crumb li:last-child a:after {
-  margin: 0;
-  content: '';
 }
 .faq-title .icon {
   float: left;
@@ -1632,11 +1582,6 @@ table th {
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.section-cover,
-.section-fixed {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .header-left-menu .primary-menu .sub-menu,
 .header-left-menu .primary-menu ul li {
   text-align: left;
@@ -1917,7 +1862,6 @@ table th {
 .section-bg-51,
 .section-bg-52,
 .section-bg-53,
-.section-bg-54,
 .section-bg-55 {
   background-position: center;
   background-repeat: no-repeat;
@@ -1989,9 +1933,6 @@ table th {
 }
 .section-bg-53 {
   background-image: url(../images/background/bg_55.jpg);
-}
-.section-bg-54 {
-  background-image: url(../images/background/bg_56.jpg);
 }
 .section-bg-55 {
   background-image: url(../images/background/bg_57.jpg);
@@ -3067,12 +3008,6 @@ table th {
   color: #fff;
   font-style: normal;
 }
-.footer {
-  background-color: #222;
-  padding: 80px 0;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-}
 .footer .widget-title {
   font-weight: 400;
   letter-spacing: 0.2em;
@@ -3081,12 +3016,6 @@ table th {
 .footer .menu li {
   display: block;
   margin-bottom: 10px;
-}
-.footer a {
-  color: #fff;
-}
-.footer a:hover {
-  color: #666;
 }
 .copyright,
 .copyright a,
@@ -4896,74 +4825,5 @@ table.shop-cart tbody tr td.actions input {
 @media (max-width: 375px) {
   .heli-typed-words {
     font-size: 20px;
-  }
-}
-.noo-spinner {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.985);
-  z-index: 999999;
-  -webkit-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  transition: all 0.8s ease 0s;
-}
-.spinner {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.cube1,
-.cube2 {
-  background-color: #222;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
-  animation: sk-cubemove 1.8s infinite ease-in-out;
-}
-.cube2 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
-}
-@-webkit-keyframes sk-cubemove {
-  25% {
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-  }
-  50% {
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-  }
-  75% {
-    -webkit-transform: translateX(0) translateY(42px) rotate(-270deg) scale(0.5);
-  }
-  100% {
-    -webkit-transform: rotate(-360deg);
-  }
-}
-@keyframes sk-cubemove {
-  25% {
-    transform: translateX(42px) rotate(-90deg) scale(0.5);
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-  }
-  50% {
-    transform: translateX(42px) translateY(42px) rotate(-179deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
-  }
-  50.1% {
-    transform: translateX(42px) translateY(42px) rotate(-180deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-  }
-  75% {
-    transform: translateX(0) translateY(42px) rotate(-270deg) scale(0.5);
-    -webkit-transform: translateX(0) translateY(42px) rotate(-270deg) scale(0.5);
-  }
-  100% {
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
   }
 }

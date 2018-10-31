@@ -13,6 +13,7 @@ import './css/magnific-popup.css';
 import './css/prettyPhoto.css';
 import './css/style.css';
 import './css/custom.css';
+import './css/style2.css';
 
 import Main from './layouts/Main.jsx';
 
