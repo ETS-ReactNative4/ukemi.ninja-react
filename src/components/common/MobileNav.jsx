@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class MobileNav extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <div id="page-mobile-main-menu" className="page-mobile-main-menu">
           <div className="page-mobile-menu-header">
             <div className="page-mobile-menu-logo">
@@ -578,7 +578,7 @@ export default class MobileNav extends Component {
             </li>
           </ul>
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
