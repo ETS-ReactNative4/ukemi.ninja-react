@@ -91,8 +91,10 @@ export default class ContactForm extends Component {
                       />
                     </FormGroup>
                   </Col>
-                  <Col md={12}>
-                    <Button>Submit</Button>
+                  <Col md={12} className="text-center">
+                    <Button className="btn btn-rounded btn-bg-dark btn-large">
+                      Submit{' '}
+                    </Button>
                   </Col>
                 </Row>
               </Form>

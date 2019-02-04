@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
+import { Container, Row, Col } from 'reactstrap';
 
 const options = {
   autoplay: true,
@@ -18,13 +19,11 @@ const options = {
 export default class Partners extends Component {
   render() {
     return (
-      <div className="section">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <OwlCarousel
-                className="client-carousel drag-carousel owl-theme"
-                {...options}>
+      <section>
+        <Container>
+          <Row>
+            <Col sm={12}>
+              <OwlCarousel className="client-carousel" {...options}>
                 <div className="item text-center">
                   <img src="images/client/client_1.jpg" alt="Sport Inspired" />
                   <div className="overlay-wrapper">
@@ -89,10 +88,10 @@ export default class Partners extends Component {
                   </div>
                 </div>
               </OwlCarousel>
-            </div>
-          </div>
-        </div>
-      </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     );
   }
 }

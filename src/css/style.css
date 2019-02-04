@@ -609,7 +609,6 @@ hr.dotted {
   -o-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
 }
-
 .form-submit,
 .tagcloud a {
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -2911,96 +2910,7 @@ table th {
   margin-left: 0;
   opacity: 1;
 }
-.client-carousel .item {
-  position: relative;
-}
-.client-carousel .item img {
-  max-width: 150px;
-}
-.client-carousel .item .overlay-wrapper {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
-.client-carousel .item .overlay-wrapper .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(34, 34, 34, 1);
-  visibility: hidden;
-  opacity: 0;
-  transform-style: flat;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0.999167);
-  -moz-transition: all 0.3s linear 0s;
-  -o-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
-}
-.client-carousel .item:hover .overlay-wrapper .overlay {
-  visibility: visible;
-  opacity: 1;
-}
-.client-carousel .item .overlay-wrapper .text {
-  display: block;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  vertical-align: middle;
-}
-.client-carousel .item .overlay-wrapper .text-inner {
-  font-size: 13px;
-  line-height: 20px;
-  color: #fff;
-  font-weight: 400;
-  display: inline-block;
-  padding: 5px 10px 4px;
-  position: relative;
-  z-index: 2;
-  text-transform: uppercase;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transform-origin: 50% 50% 0;
-  transform-style: flat;
-  transform: matrix3d(
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    -1,
-    0.000833333,
-    0,
-    1,
-    0,
-    0,
-    0,
-    0,
-    0,
-    1
-  );
-}
-.client-carousel .item:hover .overlay-wrapper .text-inner {
-  visibility: visible;
-  opacity: 1;
-  transform-origin: 50% 50% 0;
-  transform-style: flat;
-  transform: translate(0, 0);
-  font-size: 13px;
-  line-height: 20px;
-  color: #fff;
-  font-weight: 400;
-}
+
 .footer,
 .footer .widget-title {
   font-size: 16px;

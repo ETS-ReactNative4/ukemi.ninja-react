@@ -19,12 +19,14 @@ export default class MobileNav extends Component {
           </div>
           <ul className="mobile-menu">
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Home</span>
                 <span className="toggle-sub-menu"> </span>
               </a>
               <ul className="sub-menu">
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Home 1</span>
                     <span className="toggle-sub-menu"> </span>
@@ -63,6 +65,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Home 2</span>
                     <span className="toggle-sub-menu"> </span>
@@ -101,6 +104,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Home 3</span>
                     <span className="toggle-sub-menu"> </span>
@@ -139,6 +143,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Home 4</span>
                     <span className="toggle-sub-menu"> </span>
@@ -179,12 +184,14 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Pages</span>
                 <span className="toggle-sub-menu"> </span>
               </a>
               <ul className="sub-menu">
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">About us</span>
                     <span className="toggle-sub-menu"> </span>
@@ -202,6 +209,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Our services</span>
                     <span className="toggle-sub-menu"> </span>
@@ -242,12 +250,14 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Portfolio</span>
                 <span className="toggle-sub-menu"> </span>
               </a>
               <ul className="sub-menu">
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Masonry Portfolio</span>
                     <span className="toggle-sub-menu"> </span>
@@ -280,6 +290,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Grid Portfolio</span>
                     <span className="toggle-sub-menu"> </span>
@@ -312,6 +323,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Portfolio Pages</span>
                     <span className="toggle-sub-menu"> </span>
@@ -344,6 +356,7 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Blog</span>
                 <span className="toggle-sub-menu"> </span>
@@ -378,6 +391,7 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Store</span>
                 <span className="toggle-sub-menu"> </span>
@@ -407,12 +421,14 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Elements</span>
                 <span className="toggle-sub-menu"> </span>
               </a>
               <ul className="sub-menu">
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Element 1</span>
                     <span className="toggle-sub-menu"> </span>
@@ -436,6 +452,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Element 2</span>
                     <span className="toggle-sub-menu"> </span>
@@ -459,6 +476,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Element 3</span>
                     <span className="toggle-sub-menu"> </span>
@@ -482,6 +500,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Element 4</span>
                     <span className="toggle-sub-menu"> </span>
@@ -509,12 +528,14 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Options</span>
                 <span className="toggle-sub-menu"> </span>
               </a>
               <ul className="sub-menu">
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Header</span>
                     <span className="toggle-sub-menu"> </span>
@@ -541,6 +562,7 @@ export default class MobileNav extends Component {
                   </ul>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line*/}
                   <a href="javascript:void(0)">
                     <span className="menu-item-title">Footer</span>
                     <span className="toggle-sub-menu"> </span>
@@ -563,6 +585,7 @@ export default class MobileNav extends Component {
               </ul>
             </li>
             <li>
+              {/* eslint-disable-next-line*/}
               <a href="javascript:void(0)">
                 <span className="menu-item-title">Contact us</span>
                 <span className="toggle-sub-menu"> </span>
